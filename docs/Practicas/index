@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        /* Estilos básicos para que se vea bonita desde el inicio */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .tarjeta {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007acc;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #005f99;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
+        <!-- Aquí creas el texto principal -->
+        <h1>¡Hola, bienvenido a mi página web!</h1>
+        
+        <!-- Párrafos de texto -->
+        <p>Este es mi primer texto creado con Visual Studio Code. Estoy aprendiendo cómo estructurar una página web utilizando HTML y CSS.</p>
+        <p>¡Pronto agregaré más colores, imágenes y funciones interactivas!</p>
+
+        <!-- Un botón decorativo -->
+        <a href="#" class="boton">¡Empezar aventura!</a>
+    </div>
+
+</body>
+</html>
